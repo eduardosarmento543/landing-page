@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobre Dorée | Pérolas</title>
+  <meta name="description" content="Landing page de joias e colares de pérolas.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+    <!-- =========================================================
+         CABEÇALHO
+         ========================================================= -->
+    <header class="cabecalho" id="inicio">
+
+      <!--
+        IMAGEM 01 — LOGO
+        1) Crie uma pasta chamada: imagens
+        2) Coloque a imagem da LOGO dentro dessa pasta
+        3) Renomeie a imagem EXATAMENTE para: 01-logo.png
+        4) O ideal é uma imagem QUADRADA, por exemplo 300x300 px.
+        5) Se sua logo tiver fundo transparente, use PNG.
+      -->
+      <a href="#inicio" class="logo-link" aria-label="Voltar ao início">
+        <img
+          class="logo"
+          src="obre ouro.png"
+          alt="Logo Nobre Dorée"
+        >
+      </a>
+
+      <nav class="menu">
+        <a href="#cadastro">Cadastro</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+        <a href="#carrinho">Carrinho</a>
+      </nav>
+    </header>
+
+
+    <main>
+
+      <!-- =========================================================
+           BLOCO 1 — BANNER PRINCIPAL
+           ========================================================= -->
+      <section class="hero" id="produtos">
+
+        <!--
+          IMAGEM 02 — BANNER PRINCIPAL
+          É a foto GRANDE logo abaixo do menu.
+          Na referência ela mostra:
+          - colar de pérolas;
+          - tecido claro;
+          - relógio/joias;
+          - flores brancas.
+
+          PASSO A PASSO:
+          1) Escolha uma foto HORIZONTAL.
+          2) Tamanho recomendado: 1200x420 px.
+          3) Coloque dentro da pasta: imagens
+          4) Renomeie EXATAMENTE para: 02-banner-principal.jpg
+          5) NÃO altere o texto src abaixo.
+        -->
+        <img
+          class="hero-imagem"
+          src="colares.png"
+          alt="Colar de pérolas sobre tecido claro"
+        >
+
+        <div class="hero-rodape">
+          <div class="hero-texto">
+            <h1>A Elegância Atemporal que Você Merece</h1>
+            <p>
+              Um toque de sofisticação e delicadeza para transformar qualquer look.
+              Pérolas selecionadas para brilhar em todos os momentos especiais.
+            </p>
+          </div>
+
+          <a class="link-destaque" href="#detalhes">
+            CONFIRA AGORA <span>➜</span>
+          </a>
+        </div>
+      </section>
+
+
+      <!-- =========================================================
+           BLOCO 2 — DETALHES DAS PÉROLAS
+           ========================================================= -->
+      <section class="detalhes" id="detalhes">
+
+        <div class="colagem">
+
+          <!--
+            IMAGEM 03 — FOTO PEQUENA SUPERIOR DA COLAGEM
+            Na referência é a foto no ALTO à ESQUERDA,
+            mostrando pérolas de perto.
+
+            1) Use uma foto HORIZONTAL.
+            2) Tamanho recomendado: 600x350 px.
+            3) Coloque em: imagens
+            4) Nome EXATO: 03-perolas-detalhe-superior.jpg
+          -->
+          <img
+            class="foto-detalhe foto-detalhe-1"
+            src="colar close up 2.png"
+            alt="Detalhe de pérolas"
+          >
+
+          <!--
+            IMAGEM 04 — FOTO MAIOR INFERIOR DA COLAGEM
+            Na referência é a foto MAIS BAIXA,
+            com pérolas grandes em primeiro plano.
+
+            1) Use uma foto QUADRADA ou quase quadrada.
+            2) Tamanho recomendado: 700x700 px.
+            3) Coloque em: imagens
+            4) Nome EXATO: 04-perolas-detalhe-inferior.jpg
+          -->
+          <img
+            class="foto-detalhe foto-detalhe-2"
+            src="colar close up 1.png"
+            alt="Pérolas grandes em destaque"
+          >
+
+          <div class="moldura-colagem" aria-hidden="true"></div>
+        </div>
+
+        <div class="detalhes-texto">
+          <h2>O Luxo Dos Detalhes Em Cada Pérola</h2>
+          <p>
+            Design exclusivo e acabamento impecável.
+            Realce sua beleza natural com a joia mais clássica do mundo da moda.
+          </p>
+          <a class="botao-pequeno" href="#cadastro">Saiba Mais ➜</a>
+        </div>
+      </section>
+
+
+      <!-- =========================================================
+           BLOCO 3 — DEPOIMENTO
+           ========================================================= -->
+      <section class="depoimento">
+        <blockquote>
+          “O colar é ainda mais lindo pessoalmente!
+          O brilho das pérolas e o acabamento são impecáveis.
+          Virou meu acessório favorito.”
+          <strong>— Mariana S.</strong>
+        </blockquote>
+
+        <!--
+          IMAGEM 05 — FOTO DA CLIENTE / MODELO
+          Na referência é a foto da MULHER usando o colar,
+          do lado DIREITO do depoimento.
+
+          1) Use uma foto VERTICAL ou QUADRADA.
+          2) Preferência: pessoa usando colar de pérolas.
+          3) Tamanho recomendado: 700x800 px.
+          4) Coloque em: imagens
+          5) Nome EXATO: 05-cliente-com-colar.jpg
+        -->
+        <img
+          class="foto-cliente"
+          src="mulher com colar.png"
+          alt="Cliente usando colar de pérolas"
+        >
+      </section>
+
+
+      <!-- =========================================================
+           BLOCO 4 — SORTEIO
+           ========================================================= -->
+      <section class="sorteio" id="cadastro">
+        <h2>
+          Preencha O Formulário Para Participar<br>
+          Do Nosso Sorteio De Um Colar Grátis!
+        </h2>
+
+        <a class="botao-formulario" href="#formulario">
+          Formulário ➜
+        </a>
+
+        <!--
+          IMAGEM 06 — COLAR DO SORTEIO
+          Na referência é o desenho/foto do COLAR sozinho,
+          no centro da área rosa.
+
+          1) O ideal é uma imagem PNG com FUNDO TRANSPARENTE.
+          2) A imagem deve mostrar SOMENTE o colar.
+          3) Tamanho recomendado: 500x500 px.
+          4) Coloque em: imagens
+          5) Nome EXATO: 06-colar-sorteio.png
+        -->
+        <img
+          class="colar-sorteio"
+          src="colar de perolas pro forms.png"
+          alt="Colar de pérolas do sorteio"
+        >
+      </section>
+
+
+      <!-- =========================================================
+           BLOCO 5 — FORMULÁRIO FINAL
+           ========================================================= -->
+      <section class="cadastro-final" id="formulario">
+        <h2>QUE BOM QUE VOCÊ ESTÁ AQUI!</h2>
+        <p>Preencha Com Seus Dados E Participe Do Nosso Espaço Exclusivo De Promoções.</p>
+
+        <!--
+          IMPORTANTE:
+          Este formulário é SOMENTE HTML + CSS.
+          Ele aparece e o botão pode ser clicado, mas os dados NÃO são
+          enviados para um banco de dados sem um serviço/backend.
+        -->
+        <form class="formulario" action="#" method="post">
+          <label class="campo">
+            <span>Nome</span>
+            <input type="text" name="nome" placeholder="Nome" required>
+          </label>
+
+          <label class="campo">
+            <span>Celular</span>
+            <input type="tel" name="celular" placeholder="Celular" required>
+          </label>
+
+          <button type="submit">Cadastrar</button>
+        </form>
+
+        <label class="aceite">
+          <input type="checkbox" required>
+          <span>Li e concordo com os termos da promoção.</span>
+        </label>
+      </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         RODAPÉ
+         ========================================================= -->
+    <footer class="rodape" id="contato">
+      <p>MG: Do Comércio De Joias LTDA. Endereço: Rua Belíssima 290. CEP: 12345-678</p>
+    </footer>
+
+    <!--
+      ÂNCORA apenas para o item "Carrinho" do menu.
+      Como você pediu SOMENTE HTML e CSS, não existe carrinho funcional
+      com adicionar/remover produtos nesta versão.
+    -->
+    <div id="carrinho" aria-hidden="true"></div>
+
+  </div>
+</body>
+</html>
