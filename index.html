@@ -10,20 +10,8 @@
 
 <body>
   <div class="pagina">
-
-    <!-- =========================================================
-         CABEÇALHO
-         ========================================================= -->
+    
     <header class="cabecalho" id="inicio">
-
-      <!--
-        IMAGEM 01 — LOGO
-        1) Crie uma pasta chamada: imagens
-        2) Coloque a imagem da LOGO dentro dessa pasta
-        3) Renomeie a imagem EXATAMENTE para: 01-logo.png
-        4) O ideal é uma imagem QUADRADA, por exemplo 300x300 px.
-        5) Se sua logo tiver fundo transparente, use PNG.
-      -->
       <a href="#inicio" class="logo-link" aria-label="Voltar ao início">
         <img
           class="logo"
@@ -43,27 +31,7 @@
 
     <main>
 
-      <!-- =========================================================
-           BLOCO 1 — BANNER PRINCIPAL
-           ========================================================= -->
       <section class="hero" id="produtos">
-
-        <!--
-          IMAGEM 02 — BANNER PRINCIPAL
-          É a foto GRANDE logo abaixo do menu.
-          Na referência ela mostra:
-          - colar de pérolas;
-          - tecido claro;
-          - relógio/joias;
-          - flores brancas.
-
-          PASSO A PASSO:
-          1) Escolha uma foto HORIZONTAL.
-          2) Tamanho recomendado: 1200x420 px.
-          3) Coloque dentro da pasta: imagens
-          4) Renomeie EXATAMENTE para: 02-banner-principal.jpg
-          5) NÃO altere o texto src abaixo.
-        -->
         <img
           class="hero-imagem"
           src="colares.png"
@@ -85,40 +53,15 @@
         </div>
       </section>
 
-
-      <!-- =========================================================
-           BLOCO 2 — DETALHES DAS PÉROLAS
-           ========================================================= -->
       <section class="detalhes" id="detalhes">
 
         <div class="colagem">
-
-          <!--
-            IMAGEM 03 — FOTO PEQUENA SUPERIOR DA COLAGEM
-            Na referência é a foto no ALTO à ESQUERDA,
-            mostrando pérolas de perto.
-
-            1) Use uma foto HORIZONTAL.
-            2) Tamanho recomendado: 600x350 px.
-            3) Coloque em: imagens
-            4) Nome EXATO: 03-perolas-detalhe-superior.jpg
-          -->
           <img
             class="foto-detalhe foto-detalhe-1"
             src="colar close up 2.png"
             alt="Detalhe de pérolas"
           >
 
-          <!--
-            IMAGEM 04 — FOTO MAIOR INFERIOR DA COLAGEM
-            Na referência é a foto MAIS BAIXA,
-            com pérolas grandes em primeiro plano.
-
-            1) Use uma foto QUADRADA ou quase quadrada.
-            2) Tamanho recomendado: 700x700 px.
-            3) Coloque em: imagens
-            4) Nome EXATO: 04-perolas-detalhe-inferior.jpg
-          -->
           <img
             class="foto-detalhe foto-detalhe-2"
             src="colar close up 1.png"
@@ -138,10 +81,6 @@
         </div>
       </section>
 
-
-      <!-- =========================================================
-           BLOCO 3 — DEPOIMENTO
-           ========================================================= -->
       <section class="depoimento">
         <blockquote>
           “O colar é ainda mais lindo pessoalmente!
@@ -149,18 +88,6 @@
           Virou meu acessório favorito.”
           <strong>— Mariana S.</strong>
         </blockquote>
-
-        <!--
-          IMAGEM 05 — FOTO DA CLIENTE / MODELO
-          Na referência é a foto da MULHER usando o colar,
-          do lado DIREITO do depoimento.
-
-          1) Use uma foto VERTICAL ou QUADRADA.
-          2) Preferência: pessoa usando colar de pérolas.
-          3) Tamanho recomendado: 700x800 px.
-          4) Coloque em: imagens
-          5) Nome EXATO: 05-cliente-com-colar.jpg
-        -->
         <img
           class="foto-cliente"
           src="mulher com colar.png"
@@ -168,10 +95,6 @@
         >
       </section>
 
-
-      <!-- =========================================================
-           BLOCO 4 — SORTEIO
-           ========================================================= -->
       <section class="sorteio" id="cadastro">
         <h2>
           Preencha O Formulário Para Participar<br>
@@ -181,18 +104,6 @@
         <a class="botao-formulario" href="#formulario">
           Formulário ➜
         </a>
-
-        <!--
-          IMAGEM 06 — COLAR DO SORTEIO
-          Na referência é o desenho/foto do COLAR sozinho,
-          no centro da área rosa.
-
-          1) O ideal é uma imagem PNG com FUNDO TRANSPARENTE.
-          2) A imagem deve mostrar SOMENTE o colar.
-          3) Tamanho recomendado: 500x500 px.
-          4) Coloque em: imagens
-          5) Nome EXATO: 06-colar-sorteio.png
-        -->
         <img
           class="colar-sorteio"
           src="colar de perolas pro forms.png"
@@ -200,20 +111,10 @@
         >
       </section>
 
-
-      <!-- =========================================================
-           BLOCO 5 — FORMULÁRIO FINAL
-           ========================================================= -->
       <section class="cadastro-final" id="formulario">
         <h2>QUE BOM QUE VOCÊ ESTÁ AQUI!</h2>
         <p>Preencha Com Seus Dados E Participe Do Nosso Espaço Exclusivo De Promoções.</p>
 
-        <!--
-          IMPORTANTE:
-          Este formulário é SOMENTE HTML + CSS.
-          Ele aparece e o botão pode ser clicado, mas os dados NÃO são
-          enviados para um banco de dados sem um serviço/backend.
-        -->
         <form class="formulario" action="#" method="post">
           <label class="campo">
             <span>Nome</span>
@@ -236,19 +137,9 @@
 
     </main>
 
-
-    <!-- =========================================================
-         RODAPÉ
-         ========================================================= -->
     <footer class="rodape" id="contato">
       <p>MG: Do Comércio De Joias LTDA. Endereço: Rua Belíssima 290. CEP: 12345-678</p>
     </footer>
-
-    <!--
-      ÂNCORA apenas para o item "Carrinho" do menu.
-      Como você pediu SOMENTE HTML e CSS, não existe carrinho funcional
-      com adicionar/remover produtos nesta versão.
-    -->
     <div id="carrinho" aria-hidden="true"></div>
 
   </div>
